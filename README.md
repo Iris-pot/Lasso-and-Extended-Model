@@ -1,6 +1,4 @@
 # Lasso and Extended Model
-[TOC]
-
 ## 1 Lasso基础理论
 
 对常用的Lasso及其扩展模型的提出背景、计算方式和优缺点进行简要介绍。
@@ -22,7 +20,7 @@
 
 主要利用python中sklearn库，使用线性回归、Ridge回归、Lasso回归、Elastic Net以及Adaptive Lasso模型对数据进行拟合，进而比较模型的RMSE和score值。
 
-同时，本项目的相关代码也发布在Kaggle上(https://www.kaggle.com/myzhai/bike-sharing-lasso-ridge-elasticnet-adaptivelasso )。 
+同时，本项目的相关代码也发布在Kaggle上( https://www.kaggle.com/myzhai/bike-sharing-lasso-ridge-elasticnet-adaptivelasso )。 
 
 - 1 描述性统计
 
@@ -67,6 +65,6 @@
 - 4.5 Adaptive Lasso
 
 - 5 模型比较
-    
+  
 
-    
+  

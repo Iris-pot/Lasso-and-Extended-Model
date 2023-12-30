@@ -1,70 +1,70 @@
 # Lasso and Extended Model
-## 1 Lasso基础理论
+## 1 Lasso Basic Theories
 
-对常用的Lasso及其扩展模型的提出背景、计算方式和优缺点进行简要介绍。
+Provide a brief introduction to the background, calculation methods, and advantages and disadvantages of commonly used Lasso and its extended models.
 
-详见 Lasso基础理论.md
+For details, see Lasso_Basic_Theories.md
 
-- 1 经典Lasso
-- 1.1 约束优化角度看Lasso
-- 1.2 Lasso的估计及局限
+- 1 Classic Lasso
+- 1.1 From the perspective of constrained optimization, Lasso
+- 1.2 Lasso's estimation and limitations
 - 2 Adaptive Lasso
-- 3 惩罚函数特征
+- 3 Punishment function characteristics
 - 4 SCAD
 - 5 Elastic Net
 - 6 Group Lasso
 
-## 2 项目实践
+## 2 Project Practice
 
-本项目采用Kaggle上的共享单车使用量数据集(https://www.kaggle.com/c/bike-sharing-demand/data ), 旨在预测美国华盛顿共享单车租赁的使用量。
+This project uses a shared bicycle use data set on Kaggle (https://www.kaggle.com/c/bike-demand/data) to predict the amount of use of bicycle sharing in Washington in the United States.
 
-主要利用python中sklearn库，使用线性回归、Ridge回归、Lasso回归、Elastic Net以及Adaptive Lasso模型对数据进行拟合，进而比较模型的RMSE和score值。
+Mainly using the Sklearn library in Python, using linear regression, Ridge regression, Lasso regression, Elastic Net, and Adaptive Lasso models to fit the data, and then compare the RMSE and score values of the model.
 
-同时，本项目的相关代码也发布在Kaggle上( https://www.kaggle.com/myzhai/bike-sharing-lasso-ridge-elasticnet-adaptivelasso )。 
+The relevant code of this project is also published on Kaggle (https://www.kaggle.com/myzhai/bike-shaRing-lasso-RasticNet-Adaptivelasso).
 
-- 1 描述性统计
+- 1 Data Overview
 
-- 2 数据预处理
+- 2 Data Preprocessing
 
-- 2.1 重复值
+- 2.1 Repetition Value
 
-- 2.2 异常值
+- 2.2 Abnormal Value
 
-- 2.3 特征提取
+- 2.3 Data Processing
 
-- 3 特征分析
+- 3 Feature Analysis
 
-- 3.1 日期和总租赁数量
+- 3.1 Date and total lease
 
-- 3.2 月份和总租赁数量
+- 3.2 Number of months and total lease
 
-- 3.3 季节和总租赁数量
+- 3.3 Season and total lease number
 
-- 3.4 星期几和总租赁数量
+- 3.4 Day of the week and rental quantity
 
-- 3.5 节假日、工作日和总租赁数量
+- 3.5 Holidays, working days and total leases
 
-- 3.6 小时和总租赁数量
+- 3.6 The relationship between hours and total leasing
 
-- 3.7 天气和总租赁数量
+- 3.7 The relationship between weather and total leasing
 
-- 3.7其他变量和总租赁数量
+- 3.7 The relationship between other variables and total lease quantity
 
-- 3.8 相关矩阵
+- 3.8 correlation matrix
 
-- 4 回归模型
+- 4 Regression Model
 
-- 4.1 线性回归
+- 4.1 Linear Regression
 
-- 4.2 Ridge回归
+- 4.2 Ridge Regression
 
-- 4.3 Lasso回归
+- 4.3 Lasso Regression
 
-- 4.4 Elastic Net
+- 4.4 Elastic Net Regression
 
-- 4.5 Adaptive Lasso
+- 4.5 Adaptive Lasso Regression
 
-- 5 模型比较
+- 5 Model Comparison
   
 
   
